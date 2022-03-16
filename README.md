@@ -31,4 +31,3 @@ export DBPASS=your_password
 
 ## More info
 For more info visit [Go tutorial, accessing a relational database](https://go.dev/doc/tutorial/database-access)
-=======
