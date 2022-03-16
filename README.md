@@ -3,6 +3,7 @@ Practice connect to a Database with go
 
 ## Database structure
 create-table.sql has the sql code to create the database will be use
+<<<<<<< HEAD
 ~~~
 drop table if exists album;
 create table album (
@@ -20,6 +21,8 @@ values
 ('jeru','gerry mulligan', 17.99),
 ('sarah vaughan','sarah vaughnan', 34.98);
 ~~~
+=======
+>>>>>>> f2dae94de925b6b9d507b339bfa256ca6c3bd7e8
 
 ## DBUSER and DBPASS env
 Set your env in the command line.
@@ -28,6 +31,9 @@ You will need to pass this envs in mysql.Config{ ... }
 export DBUSER=your_user
 export DBPASS=your_password
 ~~~
+<<<<<<< HEAD
 
 ## More info
 For more info visit [Go tutorial, accessing a relational database](https://go.dev/doc/tutorial/database-access)
+=======
+>>>>>>> f2dae94de925b6b9d507b339bfa256ca6c3bd7e8
